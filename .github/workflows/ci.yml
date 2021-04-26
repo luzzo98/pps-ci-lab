@@ -1,0 +1,16 @@
+on:
+  push:
+    branches:
+      - develop
+  pull_request:
+    branches:
+      - develop
+jobs:
+  Build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: joschi/setup-jdk@v2.3.0
+        with:
+          java-verson: 15
+      - name: Build
+        run: ./gradlew check
