@@ -71,7 +71,7 @@ set CLASSPATH=%APP_HOME%\lib\pps-ci-lab.jar
 
 
 @rem Execute pps-ci-lab
-"%JAVA_EXE%" %DEFAULT_JVM_OPTS% %JAVA_OPTS% %PPS_CI_LAB_OPTS%  -classpath "%CLASSPATH%" main/java/SimoneMain %*
+"%JAVA_EXE%" %DEFAULT_JVM_OPTS% %JAVA_OPTS% %PPS_CI_LAB_OPTS%  -classpath "%CLASSPATH%" src.main.java.SimoneMain %*
 
 :end
 @rem End local scope for the variables with windows NT shell

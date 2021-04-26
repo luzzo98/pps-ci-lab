@@ -9,5 +9,5 @@ dependencies {
 
 }
 application {
-    mainClassName = "src/main/java/SimoneMain"
+    mainClassName = "SimoneMain"
 }
